@@ -27,24 +27,8 @@ $(document).ready(function(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//var target = 0;
+//version JS
+var target = 0;
 //
 //var cargarPagina = function () {
 //	// Elementos

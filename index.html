@@ -4,31 +4,40 @@
 	<meta charset="UTF-8">
 	<title>Carrusel con jQuery</title>
 	<link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
 <body>
-	<div class="carrusel">
+    <header>
+        <h1 class="centrar">Carrusel jQuery</h1>
+    </header>
+	<div class="carrusel centrar">
 		<div data-slide="0" class="carousel-content active">
-			<img src="" alt="Imagen 1">
+			<img src="assets/img/bici.jpg" alt="Imagen 1">
 		</div>
 		<div data-slide="1" class="carousel-content ">
-			<img src="" alt="Imagen 2">
+			<img src="assets/img/combi2.jpg" alt="Imagen 2">
 		</div>
 		<div data-slide="2" class="carousel-content ">
-			<img src="" alt="Imagen 3">
+			<img src="assets/img/carrito.jpg" alt="Imagen 3">
 		</div>
 		<div data-slide="3" class="carousel-content">
-			<img src="" alt="Imagen 4">
+			<img src="assets/img/combi.jpg" alt="Imagen 4">
 		</div>
 	</div>
-	<div class="controls">
-		<a href="#" class="previous">&#60;</a>
-		<button type="button" data-target="0" class="control"></button>
-		<button type="button" data-target="1" class="control"></button>
-		<button type="button" data-target="2" class="control"></button>
-		<button type="button" data-target="3" class="control"></button>
-		<a href="#" class="next">&#62;</a>
+	<div class="controls centrar">
+<!--	<a href="#" class="previous">&#60;</a>-->
+		<button type="button" data-target="0" class="control">❤</button>
+		<button type="button" data-target="1" class="control">❤</button>
+		<button type="button" data-target="2" class="control">❤</button>
+		<button type="button" data-target="3" class="control">❤</button>
+<!--	<a href="#" class="next">&#62;</a>-->
 	</div>
+    <div id="previo" class="previous">&#60;</div>
+    <div id="siguiente" class="next">&#62;</div>
+    
+    
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
 	<script src="assets/js/main.js"></script>
 </body>
 </html>
+
